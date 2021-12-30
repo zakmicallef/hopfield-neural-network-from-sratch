@@ -1,0 +1,26 @@
+#app {
+    padding: 50px 0;
+}
+
+#app .panel {
+    display: flex;
+    justify-content: center;
+}
+#app .panel canvas {
+    margin: 20px;
+}
+
+.outlineWarning {
+  outline-style: solid;
+  outline-color: red;
+}
+
+#side::selection {
+    color: none;
+    background: none;
+}
+/* For Mozilla Firefox */
+#side::-moz-selection {
+    color: none;
+    background: none;
+}

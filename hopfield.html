@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Generic - Stellar by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/hopfield.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		
+
+		<!-- Header -->
+		<!-- <header id="header" class="alt">
+			<h1>Hopfield Neural Network</h1>
+			<p>GitHub Project <a href="https://github.com/zakmicallef">@zakmicallef/hopfield</a>.</p>
+		</header>
+		-->
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<!-- Content -->
+						<section id="content" class="main">
+							<p>Below we can find three boxes. A unique drawing should be drawn in each of the first two boxes. The third one is for drawing a similar shape of either the first two. Press and hold down the mouse on top of the white boxes to draw. 
+								<br><br>
+								Despite the third image not being the same but similar to one of the first two images, the system will compare and match the image with the one that resembles it the most indicated by an arrow.  </p>
+								<b>This Neural Network is very basic so it will do a lot of mistakes and fail with some basic differences</b>
+						</section>
+					</div>
+			</div>
+
+			<!-- NN interface -->
+			<section id="app">
+				<div class="panel">
+					<canvas id="myCanvas1"></canvas>
+					<canvas id="myCanvas2"></canvas>
+				</div>
+
+				<div class="panel">
+					<h2 id="side">Click the button to try out the Neural Network</h2>
+				</div>
+
+				<div class="panel">
+					<canvas id="myCanvas3"></canvas>
+				</div>
+
+				<div class="panel">
+					<a onclick="hopfield()" class="button primary">Try it out</a>
+				</div>
+
+			</section>
+		
+		<!-- Scripts -->
+		<!-- not mine -->
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.1.4/math.min.js"></script>
+			<!-- drawing interface class -->
+			<script src="assets/js/DrawingCanvas.js"></script>
+			<!-- hopfield NN script -->
+			<script src="assets/js/hopfield.js"></script>
+			
+
+	</body>
+</html>
